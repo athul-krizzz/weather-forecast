@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #060b10;
+    background-image: url('solar.jpg');
+    background-size: cover; /* Makes the image cover the entire container */
+    background-position: center; /* Centers the image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .weather-container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(154, 149, 149);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+
+  .attribute {
+    text-align: right;
+    color: rgb(249, 250, 251);
+    font-size:10px;
+    padding: 20px;
+    width: 300px;
+    position: fixed;  /* Fixes the element's position relative to the viewport */
+    bottom: 0;        /* Positions the element at the bottom of the screen */
+    right: 0;         /* Positions the element at the right side of the screen */
+  }
+
+  .ownership {
+    text-align: center;
+    color: rgb(249, 250, 251);
+    font-size:8px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    position: fixed;  /* Fixes the element's position relative to the viewport */
+    top:0;       /* Positions the element at the bottom of the screen */
+    right: 1; 
+  }
+  
+  input {
+    padding: 10px;
+    margin-top: 10px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  #weather-result {
+    margin-top: 20px;
+  }
+  
